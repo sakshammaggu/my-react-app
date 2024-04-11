@@ -5,6 +5,7 @@ import Image from './components/Image.js';
 import ConditionalRendering from './components/ConditionalRendering.js';
 import ListRendering from './components/List Rendering/ListRendering.js';
 import EventResponding from './components/Event Responding/EventResponding.js';
+import ButtonCounter from './components/Button Counter/ButtonCounter.js';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
             <ListRendering /> {/* list rendering */}
             <br />
             <EventResponding />
+            <br />
+            <span><ButtonCounter /></span>
           </div>
           
         </div>
