@@ -1,8 +1,10 @@
 import './App.css';
+
 import Navbar from './components/Navbar.js';
 import Image from './components/Image.js';
 import ConditionalRendering from './components/ConditionalRendering.js';
 import ListRendering from './components/List Rendering/ListRendering.js';
+import EventResponding from './components/Event Responding/EventResponding.js';
 
 function App() {
   return (
@@ -16,7 +18,13 @@ function App() {
           <br />
           <ConditionalRendering />  {/* conditional rendering */}
           <br />
-          <ListRendering /> {/* list rendering */}
+
+          <div>
+            <ListRendering /> {/* list rendering */}
+            <br />
+            <EventResponding />
+          </div>
+          
         </div>
         
     </div>
